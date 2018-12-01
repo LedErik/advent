@@ -13,4 +13,5 @@ let main(argv: string array) =
     Array.map (explode >> parseInt) |>
     Array.reduce (+) |>
     printfn "%d"
+
     0
